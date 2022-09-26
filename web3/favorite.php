@@ -19,13 +19,12 @@ if(empty($itemId)){
         $catname=$ItemFetchAssoc['catname'];
         $name=$ItemFetchAssoc['name'];
         $description=$ItemFetchAssoc['description'];
-        $price=$ItemFetchAssoc['price'];
         $image=$ItemFetchAssoc['image'];
 
 
         $_SESSION['favoriteItem'] = $ItemFetchAssoc['id'];
 
-        $sendFavoriteQuery="INSERT INTO `favorite` (`userid`,`itemid`,`catname`,`name`,`description`,`price`,`image`) VALUES ('$userId','$itemId','$catname','$name','$description','$price','$image')";
+        $sendFavoriteQuery="INSERT INTO `favorite` (`userid`,`itemid`,`catname`,`name`,`description`,`image`) VALUES ('$userId','$itemId','$catname','$name','$description','$image')";
         mysqli_query($link,$sendFavoriteQuery);
 
     }

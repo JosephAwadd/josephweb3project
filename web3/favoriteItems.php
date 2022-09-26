@@ -111,7 +111,6 @@ $getFavoriteItemsResult = mysqli_query($link , $getFavoriteItems) or die("Query 
                             <th scope="col">CATEGORIE</th>
                             <th scope="col">NAME</th>
                             <th scope="col">DESCRIPTION</th>
-                            <th scope="col">PRICE</th>
                             <th scope="col">ACTIONS</th>
 
                         </tr>
@@ -145,11 +144,6 @@ $getFavoriteItemsResult = mysqli_query($link , $getFavoriteItems) or die("Query 
                                    <td style="width:25%">
                                         <?php 
                                             echo $FavoriteItemFetchAssoc['description'];
-                                        ?>
-                                   </td>
-                                   <td style="width:20%">
-                                        <?php 
-                                            echo $FavoriteItemFetchAssoc['price']."$";
                                         ?>
                                    </td>
                                    <td style="width:5%">
