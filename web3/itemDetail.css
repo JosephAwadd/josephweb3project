@@ -1,0 +1,161 @@
+.itemDetailContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.itemDetailName {
+    display: flex;
+}
+
+.itemDetailName div {
+    margin-right: 24px;
+}
+
+.itemDetailName h1 {
+    color: #165a6d;
+}
+
+.itemDetailDescription {
+    margin-top: 32px;
+    margin-bottom: 128px;
+}
+
+.itemDetailPriceCategorie {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemDetailDescription h2,
+.itemDetailPriceCategorie h3,
+.itemStock h3 {
+    text-decoration: underline;
+    color: #1a687e;
+}
+
+.itemDetailDescription p {
+    margin-top: 16px;
+    font-size: 24px;
+    opacity: 0.8;
+    color: #1a687e;
+    font-weight: 500;
+}
+
+.itemDetailPriceCategorie p {
+    margin-top: 8px;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #1a687e;
+    font-weight: 500;
+}
+
+.oldItemPrice {
+    color: red !important;
+    margin-right: 8px;
+}
+
+.itemStock {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.itemStock div p {
+    margin-left: 8px;
+    margin-top: 16px;
+    font-size: 24px;
+    opacity: 0.8;
+    color: #1a687e;
+    font-weight: 500;
+}
+
+.addToCarteContainer {
+    margin-top: 64px;
+    display: flex;
+}
+
+.addToCarteContainer .quantityInput input,
+.disquantityInput input {
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #1a687e;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.submitInput,
+.disabledSubmitInput {
+    text-align: center;
+    margin-left: 16px;
+}
+
+.disabledSubmitInput,
+.disquantityInput input {
+    cursor: no-drop;
+}
+
+.submitInput input,
+.disabledSubmitInput {
+    height: 50px;
+    width: 300px;
+    border-radius: 100px;
+    border: 2px solid #1a687e;
+    background-color: #1a687e;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.quantityInput input::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+.outOfStock {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outOfStock svg {
+    margin-top: 2px;
+}
+
+.outOfStock p {
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+    margin: 0;
+}
+
+.itemId {
+    margin-top: -18px;
+    margin-right: 16px;
+}
+
+.itemId p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.itemId input {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding-left: 8px;
+    border: 2px solid #1a687e;
+
+}
+
+.bi-heart {
+    color: #1a687e;
+}
+
+.bi-heart-favorite {
+    color: red;
+}

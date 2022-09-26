@@ -1,0 +1,38 @@
+.linkContainer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 16px;
+}
+
+.formWrapper {
+    height: 92.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.formContainer {
+    margin-top: 32px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formContainer div input {
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    padding-left: 16px;
+    background-color: #c4c4c4;
+}
+
+.submitCreateAdmin input:hover {
+    background-color: gray;
+    transition: ease-in-out 0.5s;
+}

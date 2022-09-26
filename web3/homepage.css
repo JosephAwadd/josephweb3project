@@ -1,0 +1,273 @@
+.logo {
+    color: #fff;
+}
+
+.logoContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.categoriesContainer {
+    overflow-x: scroll;
+    margin-top: 32px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoriesContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.categoriesContainer::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.categories {
+    margin-left: 16px;
+    font-size: 20px !important;
+    padding: 8px 24px 12px 24px !important;
+    cursor: pointer !important;
+}
+
+.imageContainer {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureItemTitle,
+.discountItemTitle {
+    margin-top: 32px;
+    color: #1a687e;
+}
+
+.featureItemContainer {
+    margin-bottom: 100px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.DiscountItemContainer {
+    padding-bottom: 4px;
+    margin-bottom: 100px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.DiscountItemContainer::-webkit-scrollbar {
+    width: 20px;
+}
+
+.DiscountItemContainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.DiscountItemContainer::-webkit-scrollbar-thumb {
+    background: #1a687e;
+    border-radius: 10px;
+}
+
+.itemContainer {
+    margin-top: 16px;
+    padding: 4px;
+    flex-basis: 243.2px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 16px;
+    background-color: #ccfcfc;
+}
+
+.itemNameCotntainer {
+    height: 55px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.itemNameCotntainer p {
+    font-size: 18px;
+}
+
+.itemDescriptionCotntainer {
+    height: 50px;
+    margin-top: 16px;
+}
+
+.itemDescriptionCotntainer p {
+    opacity: 0.8;
+}
+
+.itemCatPriceContainer {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discountPriceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemCatPriceContainer p {
+    margin: 0;
+}
+
+.itemPrice {
+    font-weight: 700;
+    color: #1a687e;
+}
+
+.oldItemPrice {
+    margin-left: 8px !important;
+    text-decoration: line-through;
+    font-weight: 700;
+    color: red;
+}
+
+.discountItemPrice {
+    font-weight: 700;
+    color: #1a687e;
+}
+
+.BuyItemContainer {
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 4px;
+    text-align: center;
+    margin-top: 12px;
+    background-color: #089090;
+    color: #ccfcfc;
+    font-size: 18px;
+}
+
+.discountPercentContainer {
+    position: absolute;
+    top: 0;
+    background-color: red;
+    opacity: 0.8;
+    padding: 4px 16px 4px 16px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.discountPercentContainer p {
+    margin: 0;
+    opacity: 1;
+    color: black;
+}
+
+/* footer */
+.footerWrapper {
+    width: 100%;
+    height: 55vh;
+    background-color: #2698b8;
+}
+
+h3 {
+    color: white;
+}
+
+ul {
+    margin-top: 16px;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.secondColContainer p {
+    margin-top: 16px;
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.socialMediaIcon {
+    color: white;
+    opacity: 0.8;
+    margin-top: 12px;
+}
+
+.socialMediaContainer,
+.phoneEmailContainer {
+    margin-top: 24px;
+}
+
+.socialMediaIconsContainer {
+    display: flex;
+}
+
+.socialMediaIconsContainer div {
+    margin-right: 16px;
+}
+
+ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+.contactIcon {
+    color: white;
+    opacity: 0.8;
+}
+
+.phoneEmailContainer div p {
+    margin-top: -8px;
+    margin-left: 16px;
+    color: white;
+    opacity: 0.8;
+    font-size: 25px;
+}
+
+.copyRight {
+    margin-top: 26px;
+    text-align: center;
+}
+
+.copyRight p {
+    margin: 0;
+    color: white;
+    opacity: 0.8;
+}
+
+.loggedinPgesContainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.loggedinPgesContainer div {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.favoriteContainer {
+    margin-top: 4px;
+}

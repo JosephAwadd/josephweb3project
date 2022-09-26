@@ -1,0 +1,24 @@
+.favoriteItemsWrapper {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+    color: #089090;
+    /* height: 89.5vh;
+    background-color: red; */
+}
+
+.deleteContainer {
+    background-color: #2698b8;
+    padding: 4px 8px 4px 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.viewItemContainer {
+    margin-top: 32px;
+    background-color: #089090;
+    padding: 4px 8px 4px 8px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}

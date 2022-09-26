@@ -1,0 +1,36 @@
+body {
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginTitle {
+    margin: 0;
+    text-align: center;
+}
+
+.loginWrapper {
+    background-color: gray;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.loginContainer p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.loginContainer input {
+    font-size: 18px;
+    background-color: #c4c4c4;
+    border: none;
+    height: 30px;
+    border-radius: 100px;
+    padding-left: 8px;
+}
+
+.submit {
+    margin-top: 32px;
+    width: 100%;
+}

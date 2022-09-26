@@ -1,0 +1,74 @@
+.profileFavoriteContainer {
+    margin-top: 2px;
+}
+
+.profileWrapper {
+    width: 100%;
+    height: 89.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userProfileContainer {
+    width: 30%;
+    aspect-ratio: 1/1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+}
+
+.profileTitleContainer {
+    background-color: #1a687e;
+    border-radius: 16px 16px 0px 0px;
+    padding: 16px;
+    color: white;
+}
+
+.profileFormContainer {
+    padding: 0px 16px 16px 16px;
+}
+
+.profileFormContainer .fnlnContainer,
+.profileFormContainer .userEmailContainer {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adressContainer {
+    margin-top: 24px;
+}
+
+.adressContainer div input {
+    width: 100%;
+
+}
+
+.fnlnContainer div p,
+.userEmailContainer div p,
+.adressContainer div p {
+    margin-bottom: 4px;
+    padding-left: 16px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profileFormContainer div input {
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #1a687e;
+    color: #1a687e;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.submitContainer {
+    margin-top: 24px;
+}
+
+.submitContainer input {
+    width: 100%;
+    background-color: #1a687e;
+    color: white !important;
+}

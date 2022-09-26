@@ -1,0 +1,19 @@
+.linkContainer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 16px;
+}
+
+.addCat {
+    /* background-color: red; */
+    margin-top: 64px;
+}
+
+.addCat div {
+    display: flex;
+    margin-top: 32px;
+}
+
+.addCat div input {
+    height: 30px;
+}

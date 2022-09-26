@@ -1,0 +1,87 @@
+.firstColWrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SigninContainer {
+    background-color: white;
+    width: 50%;
+    min-height: 50vh;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.signinTitleContainer {
+    margin-bottom: 24px;
+}
+
+.signinTitleContainer h1 {
+    color: #2698b8;
+}
+
+.formContainer {
+    width: 70%;
+}
+
+.secondColContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #2698b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondColContainer span {
+    color: #ccfcfc;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.secondColContainer p {
+    text-align: center;
+    margin-top: 32px;
+    color: #ccfcfc;
+    opacity: 0.8;
+    font-size: 26px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.usernameInputContainer input {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.submitButton {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.submitButton input {
+    height: 58px;
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    background-color: #2698b8;
+    border: none;
+    border-radius: 100px;
+}
+
+.dontHaveAccount {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.dontHaveAccount a {
+    color: #165a6d;
+}

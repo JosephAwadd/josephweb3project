@@ -1,0 +1,98 @@
+.itemWrapper {
+    margin-top: 64px;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 16px;
+}
+
+.formContainer {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameContainer,
+.descriptionContainer,
+.priceContainer,
+.stockContainer,
+.discountpriceContainer,
+.categorieContainer {
+    margin-left: 8px
+}
+
+.nameContainer input,
+.descriptionContainer input,
+.priceContainer input,
+.stockContainer input,
+.discountpriceContainer input,
+.categorieContainer input {
+    width: 190px;
+    height: 50px;
+    border-radius: 16px;
+    border: 2px solid gray;
+    padding-left: 8px;
+}
+
+.selectImageContainer {
+    width: 230px;
+    height: 50px;
+    border-radius: 16px;
+    padding-left: 8px;
+    border: 2px solid gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.selectImageContainer label {
+    color: gray;
+    font-weight: 400;
+}
+
+.formContainer div select {
+    color: gray;
+    height: 50px;
+    border-radius: 16px;
+    border: 2px solid gray;
+}
+
+.submitContainer input {
+    height: 50px;
+    width: 100px;
+    border-radius: 16px;
+    border: none;
+    background-color: gray;
+    color: white;
+    margin-left: 8px;
+}
+
+.error {
+    margin-top: 32px;
+    font-size: 28px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+.searchBar {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar input {
+    padding-left: 8px;
+    width: 300px;
+    height: 50px;
+    border-radius: 16px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
